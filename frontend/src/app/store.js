@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit'
 import authReducer from '../features/auth/authSlice'
 import goalReducer from '../features/goals/goalSlice'
 
@@ -7,4 +7,4 @@ export const store = configureStore({
     auth: authReducer,
     goals: goalReducer,
   },
-});
+})
